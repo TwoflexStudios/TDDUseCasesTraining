@@ -7,13 +7,16 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "jest": "^27.3.1",
     "standard": "^16.0.4"
   },
-  "lint-staged":{
-    "*.js":["standard"]
+  "lint-staged": {
+    "*.js": [
+      "standard"
+    ]
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
